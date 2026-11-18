@@ -1,16 +1,33 @@
-# React + Vite
+# 📚 ReadVerse Online Bookstore - CSCI426 Project Phase 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, frontend functional web application built with **ReactJS** and **Bootstrap**[cite: 1, 2] as part of the CSCI426 Advanced Web Programming coursework.
 
-Currently, two official plugins are available:
+## 🚀 Project Description
+ReadVerse is an online bookstore designed to automate the process of browsing technical and literary catalogs, searching inventory by title/author, filtering by category, inspecting individual book details, and managing a fully dynamic shopping cart[cite: 1].
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Technologies Used
+* **Frontend Library:** ReactJS (Vite)[cite: 1]
+* **Styling:** Bootstrap 5 & React Bootstrap[cite: 1, 2]
+* **Routing:** React Router DOM v6
+* **Version Control:** Git & GitHub
 
-## React Compiler
+## 📱 Pages Included
+1. **Home:** Featured best-sellers banner and quick access[cite: 1].
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![alt text](homePage.png)
 
-## Expanding the ESLint configuration
+2. **Catalog (Services):** Search bar and interactive category filter[cite: 1].
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![alt text](catalogPage.png)
+
+3. **About:** Project overview and mission statement[cite: 1].
+
+![alt text](aboutPage.png)
+
+4. **Contact:** Interactive contact form with submission state[cite: 1].
+
+![alt text](contactPage.png)
+
+5. **Book Details & Cart (Dynamic Page):** Dynamic routing for individual book inspection and real-time cart quantity/checkout management[cite: 1].
+
+![alt text](cartPage.png)

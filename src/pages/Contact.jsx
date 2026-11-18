@@ -24,11 +24,11 @@ export default function Contact() {
             <form onSubmit={handleSubmit} className="card p-4 shadow-sm border-0">
               <div className="mb-3">
                 <label className="form-label fw-bold">Your Name</label>
-                <input type="text" className="form-control" required placeholder="John Doe" />
+                <input type="text" className="form-control" required placeholder="..." />
               </div>
               <div className="mb-3">
                 <label className="form-label fw-bold">Email Address</label>
-                <input type="email" className="form-control" required placeholder="john@example.com" />
+                <input type="email" className="form-control" required placeholder="name@example.com" />
               </div>
               <div className="mb-3">
                 <label className="form-label fw-bold">Message</label>

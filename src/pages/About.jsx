@@ -1,3 +1,5 @@
+import aboutImg from '../assets/about.jpg';
+
 export default function About() {
   return (
     <div className="container py-5">
@@ -18,7 +20,7 @@ export default function About() {
         </div>
         <div className="col-lg-6">
           <img 
-            src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=700&q=80" 
+            src={aboutImg} 
             alt="Bookstore library" 
             className="img-fluid rounded shadow"
           />
