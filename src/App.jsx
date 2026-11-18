@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-// Placeholder imports (we will create these files in Step 2)
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -11,7 +10,6 @@ import Contact from './pages/Contact';
 import BookDetails from './pages/BookDetails';
 
 function App() {
-  // Shared cart state across pages
   const [cart, setCart] = useState([]);
 
   const addToCart = (book) => {
